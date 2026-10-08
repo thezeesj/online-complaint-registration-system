@@ -1,0 +1,18 @@
+# Environment & Sensitive Configs
+config/email_config.php
+
+# User Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Logs and Debug files
+*.log
+debug_log.txt
+debug_student.txt
+*.dmp
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
